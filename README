@@ -1,0 +1,3 @@
+Unrecord est une librairie qui se veut une généralisation de one_pac
+elle lit plusieurs formats de donnée maison, les stocke au format .pack et permet une consulation par filtre
+

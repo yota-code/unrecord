@@ -1,0 +1,11 @@
+#!/usr/bin/env zsh
+
+source_DIR=$0:A:h:h
+
+function push_pythonpath() {
+	echo "+ $1"
+	export PATH=$1/script:$PATH
+	export PYTHONPATH=$1/package:$PYTHONPATH
+}
+
+push_pythonpath ${source_DIR}/unrecord
